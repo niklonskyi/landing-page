@@ -3,7 +3,7 @@ body {
     margin: 0;
     background-color: #1F2937;
 }
-h1, p {
+h1, p, h3 {
     margin: 0;
 }
 header {
@@ -13,6 +13,7 @@ header {
     background-color: #1F2937;
     padding-left: 15%;
     padding-right: 12%;
+    padding-top: 25px;
 }
 
 a {
@@ -35,7 +36,7 @@ p, a {
     color: #bdbfc2;
 }
 
-.left a {
+.left a, .action a {
     color: #F9FAF8;
 }
 .main_container {
@@ -64,7 +65,7 @@ h1 {
     color: #F9FAF8;
 }
 
-.left a {
+.left a, .action a {
     background-color: #3882F6;
     border: none;
     padding: 10px 35px;
@@ -100,4 +101,67 @@ h1 {
     font-size: 36px;
     color: #1F2937;
     margin-bottom: 60px;
+}
+
+.quote-container {
+    padding: 120px 12% 120px 15%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #E5E7EB;
+    justify-content: center;
+}
+
+.quote p{
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 850px;
+}
+
+.quote-name {
+    width: 700px;
+    text-align: right;
+    font-size: 18px;
+}
+
+.action_container{
+    padding: 120px 12% 120px 15%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.action {
+    background-color: #3882F6;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+    padding: 50px 130px;
+    width: 900px;
+    border-radius: 10px;
+}
+
+.action .left  {
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.action .left h3 {
+    font-size: 22px;
+    color: #F9FAF8;
+}
+
+.action .right a {
+    border-style: solid;
+}
+
+.footer {
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 12% 50px 15%;
 }
